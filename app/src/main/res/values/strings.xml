@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lesson08_month05</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="polyline">Polyline</string>
+    <string name="polygon">Polygon</string>
+    <string name="clear">Clear</string>
+    <string name="search_location">Search location</string>
+</resources>
