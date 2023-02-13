@@ -8,7 +8,8 @@
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        tools:layout="@layout/activity_maps" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,13 +33,12 @@
         android:layout_marginEnd="15dp"
         android:layout_marginTop="120dp"
         android:text="@string/clear"/>
-    <EditText
-        android:id="@+id/search_et"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/search_style"
-        android:layout_marginHorizontal="10dp"
-        android:visibility="invisible"
-        android:hint="@string/search_location"/>
+    <Button
+        android:id="@+id/btn_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="end|center"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/notification"/>
 </FrameLayout>

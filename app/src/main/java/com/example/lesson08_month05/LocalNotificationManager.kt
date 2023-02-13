@@ -11,8 +11,8 @@ import javax.inject.Inject
 
 class LocalNotificationManager @Inject constructor (private val application: Application){
     private val builderNotifications =NotificationCompat.Builder(application,Constants.CHANNEL_ID)
-        .setSmallIcon(R.drawable.ic_launcher_background)
-        .setContentTitle("content title")
+        .setSmallIcon(R.drawable.google1)
+        .setContentTitle("My google maps")
         .setContentText("hallo")
         .setStyle(NotificationCompat.BigTextStyle())
         .setPriority(NotificationCompat.PRIORITY_DEFAULT)

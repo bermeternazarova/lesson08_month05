@@ -5,4 +5,5 @@
     <string name="polygon">Polygon</string>
     <string name="clear">Clear</string>
     <string name="search_location">Search location</string>
+    <string name="notification">Notification</string>
 </resources>
